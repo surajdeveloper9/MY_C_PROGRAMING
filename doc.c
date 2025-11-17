@@ -7,17 +7,7 @@ int main() {
 
     return 0;
 }
-
-//to find sum of two number
-#include <stdio.h>
-int main() {
-    // to add two number
-    int a,b,s;
-    s=a+b;
-    printf("sum of two numberis s");
-
-    return 0;
-}
+// for nd sum of two numbers 
  #include <stdio.h>
 int main() {
     int a,b,sum;
@@ -35,14 +25,10 @@ int main() {
     float principal, rate, time, simpleInterest;
     printf("Enter Principal Amount: ");
     scanf("%f", &principal);
-
     printf("Enter Rate of Interest: ");
     scanf("%f", &rate);
-
     printf("Enter Time (in years): ");
     scanf("%f", &time);
-
-    // Calculating Simple Interest
     simpleInterest = (principal * rate * time) / 100;
     printf("Simple Interest = %.2f\n", simpleInterest);
     return 0;
