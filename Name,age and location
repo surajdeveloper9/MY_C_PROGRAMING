@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    char name[20];
+    int age;
+    char location[20];
+    printf("Enter name: ");
+    scanf("%s", name);
+    printf("Enter age: ");
+    scanf("%d", &age);
+    printf("Enter location: ");
+    scanf("%s", location);
+    return 0;
+}
