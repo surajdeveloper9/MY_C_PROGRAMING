@@ -1,5 +1,14 @@
-to find sum of two number
-// Online C compiler to run C program online
+// Online C compiler to run C program
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("welcome all dear buddies");
+
+    return 0;
+}
+
+//to find sum of two number
 #include <stdio.h>
 int main() {
     // to add two number
@@ -20,20 +29,24 @@ int main() {
 printf("sum of two number is %d",sum);
     return 0;
 }
- //simple intrest
-#include <stdio.h>
+// To find simple interest 
+ #include <stdio.h>
 int main() {
-    float p,t,r,si;
-    printf("enter the value of princple");
-    scanf("%d",p);
-    printf("enter the time");
-    scanf("%d",t);
-    printf("enter the rate of intrest");
-    scanf("%d",r);
-    si=(p*t*r)/100;
-    printf("simple intrest is= %.2f",si);
- return 0;
-}        
+    float principal, rate, time, simpleInterest;
+    printf("Enter Principal Amount: ");
+    scanf("%f", &principal);
+
+    printf("Enter Rate of Interest: ");
+    scanf("%f", &rate);
+
+    printf("Enter Time (in years): ");
+    scanf("%f", &time);
+
+    // Calculating Simple Interest
+    simpleInterest = (principal * rate * time) / 100;
+    printf("Simple Interest = %.2f\n", simpleInterest);
+    return 0;
+}
 // to exchange  float to int
 #include <stdio.h>
 int main() {
