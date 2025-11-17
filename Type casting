@@ -1,0 +1,12 @@
+// to exchange  float to int
+#include <stdio.h>
+int main() {
+    float f;
+    int i;
+    printf("enter a float value:");
+    scanf("%f",&f);
+    i=(int)f;
+    printf("integer value is:%d\n",i);
+    return 0;
+}
+
