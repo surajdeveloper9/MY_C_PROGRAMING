@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+char name,dept;
+int age;
+char userdetails(){
+    printf("the person name is : rohith\n");
+        printf("the person age is : 19\n");
+            printf("the person belong to dept :cse\n");
+}
+
+int main() {
+    userdetails();
+}
