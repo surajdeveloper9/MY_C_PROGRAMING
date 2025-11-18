@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int vijyamalya(){
+ printf("rohiyi\n");
+ printf("rajendra\n");
+ printf("surendra\n");
+ printf("nandish\n");
+ }
+int main() {
+    vijyamalya();
+}
+
+
