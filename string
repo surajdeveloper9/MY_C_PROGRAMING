@@ -1,0 +1,10 @@
+// string
+#include <stdio.h>
+int main() { 
+    char str[50];
+    printf("enter the string:");
+    fgets(str, sizeof(str),stdin);
+    {
+printf("you enterd : %s",str);
+    }
+}
