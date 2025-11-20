@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+int a,b,temp;
+printf("enter the value of a and b");
+scanf("%d%d",&a,b);
+int *p1,*p2;
+p1=&a;
+p2=&b;
+    printf("before swaping %d %d",a,b);
+}
