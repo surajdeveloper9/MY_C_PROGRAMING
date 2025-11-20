@@ -1,0 +1,11 @@
+
+// string concatenation
+#include <stdio.h>
+#include<string.h>
+int main() {
+   char name1[50]="hello";
+   char name2[50]="buddies";
+   strcat(name1,name2);
+    printf("concatenation string is =%s",name1);
+}
+
