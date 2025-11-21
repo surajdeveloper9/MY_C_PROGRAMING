@@ -1,0 +1,16 @@
+#include <stdio.h>
+void swap(float *a, float *b) {
+    float temp = *a;
+    *a = *b;
+    *b = temp;
+}
+int main() {
+    float bal1, bal2;
+    printf("Enter first balance: ");
+    scanf("%f", &bal1);
+    printf("Enter second balance: ");
+    scanf("%f", &bal2);
+    printf("\nBefore swap: bal1 = %.2f, bal2 = %.2f\n", bal1, bal2);
+    swap(&bal1, &bal2);   // calling function with pointers
+    printf("After swap:  bal1 = %.2f, bal2 = %.2f\n", bal1, bal2);
+}
