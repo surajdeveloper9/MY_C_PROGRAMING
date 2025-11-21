@@ -1,0 +1,18 @@
+#include <stdio.h>
+void simulate(float x, float y) {      // call by value
+    float t = x; x = y; y = t;
+    printf("Simulated: A=%.2f B=%.2f\n", x, y);
+}
+void actual(float *x, float *y) {      // call by reference
+    float t = *x; *x = *y; *y = t;
+}
+int main() {
+    float A, B;
+    printf("Enter A and B: ");
+    scanf("%f %f", &A, &B);
+    printf("Before: A=%.2f B=%.2f\n", A, B);
+    simulate(A, B);                            // no change
+    actual(&A, &B);                            // real swap
+    printf("After:  A=%.2f B=%.2f\n", A, B);
+    return 0;
+}
