@@ -1,0 +1,11 @@
+#include <stdio.h>
+enum number{
+    a=5,
+    b,
+    c=10,
+    d
+};
+int main() {
+    enum number n=b;
+    printf("%d", n);
+}
