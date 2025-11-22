@@ -1,0 +1,18 @@
+#include<stdio.h>
+enum operations {
+      add=1,
+      substract,
+      multiply,
+      divide
+ };
+ int main () {
+ enum operations op;
+ printf("enter operations (1-4)");
+ scanf("%d",&op);
+if (op==add)
+printf("addition");
+else if (op==substract)
+printf("substraction");
+else 
+printf("other operation");
+ }
